@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <project_id>project-id</project_id>
+    <credentials_path>path/to/credentials.json</credentials_path>
+    <log_filter>resource.type="gce_instance"</log_filter>
+    <server_port>9000</server_port>
+    <log_level>INFO</log_level>
+    <poll_interval_seconds>5</poll_interval_seconds>
+    <max_poll_interval_seconds>300</max_poll_interval_seconds>
+    <initial_lookback_seconds>120</initial_lookback_seconds>
+    <log_filter>
+        <resource_type>cloud_run_revision</resource_type>
+        <service_name>service-name</service_name>
+        <custom_filter></custom_filter>
+    </log_filter>
+</config>
