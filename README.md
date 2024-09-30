@@ -28,7 +28,6 @@ Lookback is the start time which logs are pulled from.
 <config>
     <project_id>project-id</project_id>
     <credentials_path>path/to/local/credentials.json</credentials_path>
-    <log_filter>resource.type="gce_instance"</log_filter>
     <server_port>9000</server_port>
     <log_level>INFO</log_level>
     <poll_interval_seconds>5</poll_interval_seconds>
